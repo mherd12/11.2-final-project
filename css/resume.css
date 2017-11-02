@@ -1,0 +1,103 @@
+body{
+  background: #ABDEE8;  
+  background-color: rgba(171, 222, 232, 0.9);
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-bottom: 50px;
+}
+
+#wrapper{
+  max-width: 1200px;
+  margin: auto;
+}
+
+img{
+  margin: auto;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  height: 250px;
+  width: 250px;
+    
+    /*The padding properly adds space around the image.*/
+}
+
+.company{
+  font-family: Verdana, serif;
+  font-size: 18px;
+  padding-top: 20px;
+  /*The padding here adds space in between jobs without using a break. The other indicators of font and alignment are self-explanatory.*/
+}
+
+.job-title{
+  font-family: Helvetica, serif;
+  font-size: 15px;
+}
+
+h1{
+ color:Forestgreen;
+ text-align: center;  
+ font-size: 60px;
+ font-family: 'Crimson Text' , serif;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+li{
+  font-family:Verdana, Tahoma;
+  font-size: 15px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2{
+    font-size: 15px;
+  }
+  
+  h3{
+    font-size: 15px;
+  }
+  
+  .job-title{
+    font-size: 14px;
+  }
+  
+  .company{
+    font-size: 14px;
+  }
+  
+  li{
+    font-size: 10px;
+  }
+  
+  img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  ul{
+    padding-left: 0;
+  }
+  
+  body{
+    margin: 30px;
+  }
+}

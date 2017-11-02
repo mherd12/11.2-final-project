@@ -1,0 +1,16 @@
+.intro {
+  text-align: center;
+  font-family: 'Signika', 'sans-serif';
+  padding: 30px;
+  margin: 20px;
+}
+
+h1 {
+  color: maroon;
+  font-family: 'Abril Fatface', cursive, 'serif';
+}
+
+h2 {
+  color: maroon;
+  font-family: 'Bree Serif', 'serif';
+}
